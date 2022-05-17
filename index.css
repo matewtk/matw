@@ -1,0 +1,64 @@
+body {
+    opacity:0;
+    transition: opacity 2s;
+    -webkit-transition: opacity 2s;
+    pointer-events: none;
+    background-color: rgb(25, 25, 25);
+    font-family: 'Montserrat', sans-serif;
+    color: #FFF;
+    letter-spacing: 3px;
+    line-height: 200%;
+    margin-left: 2%;
+    margin-top: 2%;
+}
+ul {
+    z-index: 100;
+    pointer-events: auto;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+#pagelink {
+    z-index: 100;
+    text-decoration: none;
+    color: #FFF;
+}
+#pagelink:hover {
+    z-index: 100;
+    color: rgb(180, 228, 8);
+    transition: 0.2s linear;
+}
+#contact {
+	z-index: 100;
+	background-color: rgb(40, 40, 40);
+	color: rgb(64, 64, 64);
+	position:fixed;
+	padding-bottom: 10px;
+	padding-top: 10px;
+	text-align: center;
+	bottom: 0px;
+	left: 0px;
+	width: 100%;
+}
+#footerlink {
+    z-index: 100;
+    pointer-events: auto;
+	color: rgb(64, 64, 64);
+	text-decoration: none;
+}
+
+#particles-js{
+  pointer-events: auto;
+  z-index: -100;
+  top: 0;
+  left: 0;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: #191919;
+}
+
+#clickable{
+    z-index: 100;
+    pointer-events: auto;
+}
